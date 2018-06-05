@@ -133,7 +133,7 @@ You only need to do these once for all.
 
 Above, you'll see we create an script/file as websocket server that listening for any incoming requests on port 3000. Save this script as `chat-server.js`.
 
-6. Now, we're going to create chat interface and save this as `views/chat.ejs`:
+7. Now, we're going to create chat interface and save this as `views/chat.ejs`:
 
    ```
    <!DOCTYPE html>
@@ -247,16 +247,16 @@ Above, you'll see we create an script/file as websocket server that listening fo
     </script>
    ```
 
-7. Run the websocket server with the following command in your terminal:
+8. Run the websocket server with the following command in your terminal:
 
    ```
    >> E:\Nodejs_Websocket>node chat-server
    ```
 
-8. Now, we can run the interface server with the following command in your terminal:
+9. Now, we can run the interface server with the following command in your terminal:
 
    ```
    >> E:\Nodejs_Websocket>node index
    ```
 
-9. And run `http://localhost:1337/` on your browser as user1 and open `http://localhost:1337/` on your other browser as user2. You'll see we've created chat apps for multi users.
+10. And run `http://localhost:1337/` on your browser as user1 and open `http://localhost:1337/` on your other browser as user2. You'll see we've created chat apps for multi users.

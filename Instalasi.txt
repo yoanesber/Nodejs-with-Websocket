@@ -1,6 +1,0 @@
-1. mkdir Nodejs_Websocket
-2. cd Nodejs_Websocket
-3. npm init
-4. npm install express --save
-5. npm install nodejs-websocket --save
-
